@@ -1,0 +1,11 @@
++ git config user.email ninjacloud05@gmail.com
++ git config user.name NinjaCloud
++ BUILD_NUMBER=4
++ echo 4
+4
++ grep -oP (?<=backend:)[^ ]+ deployment.yaml
++ imageTag=2
++ echo 2
+2
++ sed -i s/backend:2/backend:4/ deployment.yaml
++ git add --all
